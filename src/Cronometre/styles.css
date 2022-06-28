@@ -1,0 +1,67 @@
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.clock {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10rem;
+    height: 30vh;
+    margin: 0%;
+    color: #00f001;
+}
+
+.clock span{
+    width: 28vh;
+    height: 19vh;
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+}
+
+.clock input{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10rem;
+    height: 17vh;
+    margin: 0%;
+    color:#00f001;
+    width: 28vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 43, 24);
+    text-align:center;
+    border: rgb(32, 83, 32) solid 2px;
+    border-radius: 10px;
+}
+
+
+
+.boutton{
+    position:absolute ;
+    top: 1em;
+    left: 1em;
+}
+
+.move{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    width: 900px;
+}
+
+a button{
+    text-decoration: none !important;
+    background-color: rgb(80, 151, 151);
+}

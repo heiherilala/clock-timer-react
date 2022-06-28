@@ -11,3 +11,9 @@
     font-size: 10rem;
     color: #00f001;
 }
+
+.boutton{
+    position:absolute ;
+    top: 1em;
+    left: 1em;
+}
